@@ -21,10 +21,6 @@ const Header = ({ currentUser, cartHidden }) => {
         <Link to="/shop" className="option">
           SHOP
         </Link>
-<<<<<<< HEAD
-
-=======
->>>>>>> 3ad62ba2c8001af11b91db4f1f3fee14af1132f7
         {currentUser ? (
           <div className="option" onClick={() => auth.signOut()}>
             SIGN OUT
